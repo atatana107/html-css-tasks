@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Tenor+Sans&display=swap');
+.header
+{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-size: 14px;
+}
+.General_heading
+{
+    font-family: 'Tenor Sans', sans-serif;
+    font-style: regular;
+    font-size: 48px;
+}
+.list
+{
+    list-style-type: none;
+    
+}
+.head_nav_li
+{
+    text-decoration: none;
+}
