@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Tenor+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-h1
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2
 {
     font-family: 'Tenor Sans';
     font-weight: 570;
     font-size: 48px;
     color: rgb(87,70,58);
  }
-h2 
+h3 
 {
-    font-family: 'Tenor Sans';
-    font-weight: 570;
-    font-size: 48px;
-    color: rgb(87,70,58);
-}
-
-
-h3 {
     font-family: 'Tenor Sans';
     font-size: 24px;
     font-weight: 300;
@@ -26,31 +25,8 @@ h3 {
 
 li{
     list-style-type: none;
-  }
-
- .navigation
- {
     text-decoration: none;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 14px;
-    color: rgb(32,32,32);
   }
-.our-numbers 
-{
-    font-family: 'Tenor Sans';
-    font-size: 48px;
-    color: rgb(87,70,58);
-    font-weight: 300;
-}
-
-.quote 
-{
-    font-family: 'Open Sans';
-    font-weight: 100;
-    font-size: 24px;
-    color: rgb(32,32,32);
-}
 
 p {
     font-family: 'Open Sans';
@@ -58,57 +34,31 @@ p {
     font-weight: 600;
     color: rgb(00,00,00);
 }
-
-q {
-    text-decoration:none;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 24px;
-    color: rgb(32,32,32);
-}
-
-button 
-{
-
-
-    background-color: rgb(161,178,159);
-    color: rgb(246,246,246);
-    border: none;
-    font-family: 'Open Sans';
-    font-weight: 700;
-    font-size: 16px;
-    padding: 14px 50px;
-}
 body
 {
     background-color:rgb(243,239,234);
 }
-footer {
-    background-color: rgb(113,91,75);
-    height: 380px;
-    
+.header_nav_li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 140px 20px;
+    padding-bottom: 10x;
+    margin-right: 10px;
 }
-.info
-{
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 16px;
-    color: rgb(246,246,246);
-}
-.usef-link {
+
+.head_nav_li_item{
     text-decoration: none;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 16px;
-    color: rgb(246,246,246);
+    font-family: 'Open Sans'; 
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(32,32,32);
+    display: flex;
+    flex-direction: row; 
+    margin-right: 70px;
 }
-.doc {
-    text-decoration: none;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 16px;
-    color: rgb(246,246,246);
-}
+
 .hr-line 
 {
 	margin: 20px 0;
@@ -116,4 +66,157 @@ footer {
 	height: 0;
 	border: none;
 	border-top: 1.7px solid #333;
+    padding-bottom: 120px;
+}
+
+.history_image
+{
+    padding: 40px 140px 157.5px;
+}
+.history_title
+{
+padding-bottom: 19px;
+}
+.history
+{
+display: flex;
+text-align: center;
+flex-direction: column;
+}
+.history_number
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0px 140px 160px; 
+}
+.founder
+{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0px 140px 160px;
+}
+.founder_title
+{
+    padding-bottom: 20px;
+}
+.founder_text
+{
+    margin-bottom: 70px;  
+}
+.founder_information
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.philosophy_title
+{
+ margin: 0 0 100px 138px;
+}
+.philosophy_text
+{
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 24px;
+    color: rgb(32,32,32);
+    padding: 0px 138px 200px 0 ;
+    text-align: right;
+
+}
+.media
+{
+    text-align: left; 
+}
+
+.media_title
+{
+    padding: 0px 0 100px 138px ;
+}
+
+.media_image{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 210px 165.24px 219px;
+}
+.media_text{
+    padding-top: 20px;
+    color: #323232;
+    font-weight: 550;
+}
+.petition
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 243px;
+}
+
+.petition_title
+{
+    padding: 0 136px 100px 0;
+}
+button 
+{
+    background-color: rgb(161,178,159);
+    color: rgb(246,246,246);
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    padding: 18px 55px;
+    display: flex;
+    width: 245px; 
+    height: 60px;
+ 
+}
+.footer 
+{
+    background-color: rgb(113,91,75);
+    height: 380px;
+    text-decoration: none; 
+    
+}
+
+.footer_nav
+{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 84px 90px 190px;
+    
+    
+}
+.footer_nav_item
+{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(246,246,246);
+    word-wrap: break-word;
+    
+}
+
+.footer_nav_list
+{
+    list-style-type: none;
+    padding: 0px;
+    margin:  0px;
+    text-decoration: none;
+    
+    
+}
+
+.foot_social_network:first-child
+{
+    margin-right: 10px;
+}
+
+.foot_social_network p
+{
+    padding-top: 10px;
 }
