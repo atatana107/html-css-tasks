@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+h1
+{
+    font-family: 'Tenor Sans';
+    font-weight: 570;
+    font-size: 48px;
+    color: rgb(87,70,58);
+ }
+h2 
+{
+    font-family: 'Tenor Sans';
+    font-weight: 570;
+    font-size: 48px;
+    color: rgb(87,70,58);
+}
+
+
+h3 {
+    font-family: 'Tenor Sans';
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(00,00,00);
+}
+
+li{
+    list-style-type: none;
+  }
+
+ .navigation
+ {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(32,32,32);
+  }
+.our-numbers 
+{
+    font-family: 'Tenor Sans';
+    font-size: 48px;
+    color: rgb(87,70,58);
+    font-weight: 300;
+}
+
+.quote 
+{
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 24px;
+    color: rgb(32,32,32);
+}
+
+p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(00,00,00);
+}
+
+q {
+    text-decoration:none;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 24px;
+    color: rgb(32,32,32);
+}
+
+button 
+{
+
+
+    background-color: rgb(161,178,159);
+    color: rgb(246,246,246);
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 50px;
+}
+body
+{
+    background-color:rgb(243,239,234);
+}
+footer {
+    background-color: rgb(113,91,75);
+    height: 380px;
+    
+}
+.info
+{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(246,246,246);
+}
+.usef-link {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(246,246,246);
+}
+.doc {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(246,246,246);
+}
+.hr-line 
+{
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1.7px solid #333;
+}

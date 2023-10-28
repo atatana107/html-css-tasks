@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+.info
+{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(246,246,246);
+}
+.usef-link {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(246,246,246);
+}
+.doc {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(246,246,246);
+}
+body
+{
+    background-color:rgb(243,239,234);
+}
+footer {
+    background-color: rgb(113,91,75);
+    height: 380px;
+    
+}
+h1
+{
+    font-family: 'Tenor Sans';
+    font-weight: 570;
+    font-size: 48px;
+    color: rgb(87,70,58);
+ }
+h2 
+{
+    font-family: 'Tenor Sans';
+    font-weight: 570;
+    font-size: 48px;
+    color: rgb(87,70,58);
+}
+
+
+h3 {
+    font-family: 'Tenor Sans';
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(00,00,00);
+}
+li{
+    list-style-type: none;
+  }
+
+ .navigation
+ {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(32,32,32);
+  }
+  .order
+{
+    background-color: rgb(246,246,246);
+    color: rgb(113,91,75);
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 50px;
+}
+p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(246,246,246);
+}
+.privilege
+{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(32,32,32);
+}
+.hr-line 
+{
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1.7px solid rgb(113,91,75);
+    width: 200px;
+}
+.bold
+{
+    font-weight: 700;
+}
+.leave_request
+{
+
+    background-color: rgb(161,178,159);
+    color: rgb(246,246,246);
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 50px;
+}
+table
+{
+    border-collapse: collapse;
+    width: 80.5%;
+}
+ td
+ {
+    border: 1.7px solid grey;
+ }
+ .number
+ {
+    font-family: 'Tenor Sans';
+    font-weight: 570;
+    font-size: 48px;
+    color: rgb(87,70,58);
+ }
+ .stages
+ {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(32,32,32);
+ }
