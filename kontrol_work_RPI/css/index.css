@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+  }
+  body
+{
+    background-color:rgb(243,239,234);
+}
+
+.header_nav_li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 140px 20px;
+    padding-bottom: 10x;
+    margin-right: 10px;
+}
+
+.head_nav_li_item{
+    text-decoration: none;
+    font-family: 'Open Sans'; 
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(32,32,32);
+    display: flex;
+    flex-direction: row; 
+    margin-right: 70px;
+}
+h1, h2
+{
+    font-family: 'Tenor Sans';
+    font-weight: 570;
+    font-size: 48px;
+    color: rgb(87,70,58);
+ }
+h3 
+{
+    font-family: 'Tenor Sans';
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(00,00,00);
+}
+p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(00,00,00);
+}
+
+.title_mag_text
+{
+padding-bottom: 19px;
+}
+.title_magazine
+{
+display: flex;
+text-align: center;
+flex-direction: column;
+}
+.pizza
+{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0px 140px 160px;
+}
+.pizza_title
+{
+    padding-bottom: 20px;
+}
+.pizza_text
+{
+    margin-bottom: 70px;  
+}
+.pizza_information
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+button 
+{
+    background-color: rgb(74, 173, 140);
+    color: rgb(246,246,246);
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+    padding: 18px 55px;
+    display: flex;
+    width: 300px; 
+    height: 60px;
+ 
+}
+.action_title
+{
+ margin: 0 0 100px 138px;
+}
+.action_text
+{
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 24px;
+    color: rgb(32,32,32);
+    padding: 0px 138px 200px 0 ;
+    text-align: right;
+
+}
+.Add_to_Basket
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 243px;
+}
+.add-to-cart
+{
+
+}
+.footer 
+{
+    background-color:rgb(74, 173, 140);
+    height: 300px;
+    text-decoration: none; 
+    
+}
+
+.footer_nav
+{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px 190px;   
+}
+.footer_nav_item
+{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(246,246,246);
+    word-wrap: break-word;
+    
+}
+
+.footer_nav_list
+{
+    list-style-type: none;
+    padding: 0px;
+    margin:  0px;
+    margin-right: 300px;
+    text-decoration: none;
+    
+    
+}
+
+.foot_social_network:first-child
+{
+    margin-right: 10px;
+}
+
+.foot_social_network p
+{
+    padding-top: 10px;
+}

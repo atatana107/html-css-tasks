@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+h1{
+    font-family: 'Tenor Sans';
+    font-weight: 570;
+    font-size: 48px;
+    color: rgb(87,70,58);
+  }
+
+li{
+    list-style-type: none;
+  }
+
+ a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(32,32,32);
+  }
+  .our-numbers
+  {
+    font-family: 'Tenor Sans';
+    font-size: 48px;
+    color: rgb(87,70,58);
+  }
+
+ p{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(00,00,00);
+  }
+
