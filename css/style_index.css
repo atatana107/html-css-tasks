@@ -1,21 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
 
 body
 {
     background-color:rgb(243,239,234);
 }
 
-.navigation 
-{
+.header_nav_li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 140px 20px;
+    padding-bottom: 10x;
+    margin-right: 10px;
+}
+
+.head_nav_li_item{
     text-decoration: none;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans'; 
     font-weight: 600;
     font-size: 14px;
     color: rgb(32,32,32);
+    display: flex;
+    flex-direction: row; 
+    margin-right: 70px;
 }
-li {
+
+li 
+{
     list-style-type: none;
 }
 h1 {
@@ -47,7 +66,6 @@ p
 {
     font-family: 'Open Sans';
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
     color: rgb(00,00,00);
 }
@@ -97,6 +115,14 @@ ol li:before {
     font-style: italic;
     font-weight: 700;
 }
+.two_life
+{
+    background-image: url("images/backgroud_two_master_classer.png");
+    height: 508px;
+    background-size: cover;
+    margin-bottom: 160px;
+    
+}
 .give-life
 {
     font-family: 'Tenor Sans';
@@ -104,25 +130,77 @@ ol li:before {
     font-size: 48px;
     color: rgb(246,246,246);
 }
-.examples-restoration, .carpentry
+.master_classes_furniture
+{
+    margin: 0 170px 158px 140px;
+}
+
+.masters_furniture img:first-child
+{
+    margin-bottom: 23px;  
+}
+.masters_furniture
+{
+    margin-top: 104px;
+    margin-left: 28;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 77px 91px;
+    
+}
+.examples-restoration
 {
     font-family: 'Open Sans';
-    font-style: italic;
     font-weight: 700;
     font-size: 18px;
-    color: rgb(32,32,32); 
+    color: rgb(32,32,32);
+}
+.carpentry_beginners
+{
+    margin: 0 140px 157px;
+}
+
+.carpentry_content img:first-child
+{
+    margin: 15px;
+}
+.carpentry_content
+{
+    margin-top: 99px;
+    display: flex;
+    row-gap: 17px;
+    text-align: center;
+}
+
+.carpentry_text{
+    color: rgb(32,32,32);
+    font-weight: 700;
+    text-align: center;
 }
 .redesign
 {
     font-family: 'Open Sans';
     font-size: 18px;
-    font-style: italic;
     font-weight: 400;
     color: rgb(00,00,00);
+    padding: 0px 0 100px 138px ;
+}
+.redesign_text
+{
+    padding-bottom: 47px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+.redesign_title
+{
+    padding-bottom: 100px;
 }
 button 
 {
-
 
     background-color: rgb(161,178,159);
     color: rgb(246,246,246);
@@ -131,34 +209,61 @@ button
     font-weight: 700;
     font-size: 16px;
     padding: 14px 50px;
+    width: 245px; 
+    height: 60px;
 }
-.info
+
+.redesign
 {
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 16px;
-    font-style: italic;
-    color: rgb(246,246,246);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 243px;
 }
-footer 
+.footer 
 {
     background-color: rgb(113,91,75);
     height: 380px;
+    text-decoration: none; 
+    
 }
-.usef-link {
+
+.footer_nav
+{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 84px 90px 190px;
+    
+    
+}
+.footer_nav_item
+{
     text-decoration: none;
     font-family: 'Open Sans';
     font-weight: 300;
     font-size: 16px;
-    font-style: italic;
     color: rgb(246,246,246);
+    word-wrap: break-word;
+    
 }
-.doc {
-    text-decoration: none;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 16px;
-    font-style: italic;
-    color: rgb(246,246,246);
+
+.footer_nav_list
+{
+    list-style-type: none;
+    padding: 0px;
+    margin:  0px;
+    text-decoration: none;   
 }
+
+.foot_social_network:first-child
+{
+    margin-right: 10px;
+}
+
+.foot_social_network p
+{
+    padding-top: 10px;
+}
+
 

@@ -4,30 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nornalize.css">
     <link rel="stylesheet" href="css/style_index.css">
     <title>HTML-CSS-TASKS</title>
 </head>
 <body>
-    <header>
-		<nav>
-			<ul>
-				<li>
-                    <a class="navigation" href="">Мастер-классы</a>
-                </li>
-				<li>
-                    <a class="navigation" href="">Мебель на заказ</a>
-                </li>
-                
-				<li>
-                    <a class="navigation" href="">Контакты</a>
-                </li>
-				<li>
-                    <a class="navigation" href="">О нас</a>
-                </li>
+    <header class = "header">
+        <nav class = "header_nav">
+            <ul class = "header_nav_li">
+                <li><a class = "head_nav_li_item" href="master-classes.html">Мастер-классы </a></li>
+                <li><a class = "head_nav_li_item" href="index.html">Мебель на заказ</a></li>
+                <li><a class = "head_nav_li_item"> <img src="images/logo.png" alt="" height="86" width="87"></a></li>
+                <li><a class = "head_nav_li_item" href="">Контакты</a></li>
+                <li><a class = "head_nav_li_item" href="about.html">О нас </a></li>
             </ul>
-                 <a>
-                    <img src="images/logo.png" alt="img" height="86" width="87">
-                </a>
+            
 		</nav>
 	</header>
 <main>
@@ -91,89 +82,105 @@
                 </ol>
             </div>
     </section>
-    <section>
-            <h2 class = "give-life">Подари вторую жизнь старой мебели <br> и сохрани историю вашей семьи</h2></h2>
+    <section class = "two_life">
+            <h2 class = "two_life_title">Подари вторую жизнь старой мебели <br> и сохрани историю вашей семьи</h2></h2>
     </section>
-    <section>
-            <h2>Мастер-классы по реставрации мебели</h2>
+    <section class="master_classes_furniture">
+        
+        <h2>Мастер-классы по реставрации мебели</h2>
 
-            <figure>
-                <img src="images/buffet.png" alt="img" height="247" width="200">
-            <figcaption><p class = "examples-restoration">Буфет</p></figcaption>
-            </figure>
-            <figure>
-                <img src="images/box.png" alt="img" height="173" width="212">
-            <figcaption><p class = "examples-restoration">Сундук</p></figcaption>
-            </figure>
-            <figure>
-                <img src="images/chest.png" alt="img" height="186" width="222">
-            <figcaption><p class = "examples-restoration">Комод</p></figcaption>
-            </figure>
-            <figure>
-                <img src="images/soviet_chair.png" alt="img" height="207" width="251">
-            <figcaption><p class = "examples-restoration">Советское кресло</p></figcaption>
-            </figure>
-            <figure>
-                <img src="images/table.png" alt="img" height="174" width="191">
-            <figcaption><p class = "examples-restoration">Стол</p></figcaption>
-            </figure>
-            <figure>
-                <img src="images/chair.png" alt="img" height="181" width="146">
-            <figcaption><p class = "examples-restoration">Стул</p></figcaption>
-            </figure>
-            <figure>
-                <img src="images/chair_upholstery.png" alt="img" height="194" width="157">
-            <figcaption><p class = "examples-restoration">Обивка стула</p></figcaption>
-            </figure>
-            <figure>
-                <img src="images/chair_repair.png" alt="img" height="180" width="149">
-            <figcaption><p class = "examples-restoration">Ремонт стула</p></figcaption>
-            </figure>
+            <div class="masters_furniture">
+
+                <figure>
+                    <img src="images/buffet.png" alt="img" height="247" width="200">
+                    <figcaption><p class = "examples-restoration">Буфет</p></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/box.png" alt="img" height="173" width="212">
+                    <figcaption><p class = "examples-restoration">Сундук</p></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/chest.png" alt="img" height="186" width="222">
+                    <figcaption><p class = "examples-restoration">Комод</p></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/soviet_chair.png" alt="img" height="207" width="251">
+                    <figcaption><p class = "examples-restoration">Советское кресло</p></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/table.png" alt="img" height="174" width="191">
+                    <figcaption><p class = "examples-restoration">Стол</p></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/chair.png" alt="img" height="181" width="146">
+                    <figcaption><p class = "examples-restoration">Стул</p></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/chair_upholstery.png" alt="img" height="194" width="157">
+                    <figcaption><p class = "examples-restoration">Обивка стула</p></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/chair_repair.png" alt="img" height="180" width="149">
+                    <figcaption><p class = "examples-restoration">Ремонт стула</p></figcaption>
+                </figure>
+
+            </div>
+
     </section>
-    <section>
-            <h2>Мастер-классы по столярному делу</h2>
+    <section class = "carpentry_beginners">
+        
+        <h2>Мастер-классы по столярному делу</h2>
 
-            <figure>
-                <img src="images/console_table.png" alt="img" height="560" width="560">
-            <figcaption><p class="carpentry">Консольный столик</з></figcaption>
-            </figure>
-            <figure>
-                <img src="images/carpentry for beginners.png" alt="img" height="560" width="560">
-            <figcaption><p class="carpentry">Столярное дело для начинающих</p></figcaption>
-            </figure>
+            <div class="carpentry_content">
+                <figure>
+                    <img src="images/console_table.png" alt="img" height="560" width="560">
+                    <figcaption><p class="carpentry_text">Консольный столик</з></figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/carpentry for beginners.png" alt="img" height="560" width="560">
+                    <figcaption><p class="carpentry_text">Столярное дело для начинающих</p></figcaption>
+                </figure>
+            </div>
+
     </section>
-    <section>
-            <h2>Руководство по редизайну деревянной мебели</h2>
+    <section class = "redesign">
+            <h2 class = "redesign_title">Руководство по редизайну <br>деревянной мебели</h2>
 
-            <p class = "redesign">Здесь мы собрали всю информацию от подбора инстурментов и <br>материалов до сборки мебели и фурнитуры. 
+            <p class = "redesign_text">Здесь мы собрали всю информацию от подбора инстурментов и <br>материалов до сборки мебели и фурнитуры. 
             Чтобы вы <br>самостоятельно могли разобраться с нюансами работы со старой<br> мебелью из дерева. 
             Наше руководство непременно станет вашей <br>настольной книгой по реставрации мебели.</p>
 
             <button>Подробнее</button>  
     </section>  
 </main>
-        <footer>
-            <div>
-                <div>
-                    <p class= "info">ИП Колодезников-Матчитов Н.И.</p>
-                    <p class= "info">ИНН 143515646663</p>
-                </div>
-                <div>
-                    <a class = "usef-link" href ="">Мастер-классы</a>
-                    <a class = "usef-link" href="">Мебель на заказ</a>
-                </div>
-                <div>
-                    <a class = "usef-link" href="">Контакты</a>
-                    <a class = "usef-link" href="">О нас</a>
-                </div>
-                <div>
-                    <a class ="doc" href="">Политика кофиденциальности</a>
-                    <a class ="doc" href="">Договор оферты</a>
-                </div>
-                    <a href=""><img src="images/instagram.svg" alt="img"></a>
-                    <a href=""><img src="images/whatsapp.svg" alt="img"></a>
-                </div>
-            </div>
-        </footer>
+<footer class = "footer">
+    <nav class = "footer_nav">
+        <ul class ="footer_nav_list">
+            <li>
+                <p class ="footer_nav_item"> ИП Колодезников-Матчитов Н.И.<br>
+                ИНН 143515646663</p>
+            </li>
+        </ul>
+        <ul>
+            <a class = "footer_nav_item" href ="master-classes.html">Мастер-классы<br></a>
+            <a class = "footer_nav_item" href="index.html">Мебель на заказ</a>
+        </ul>
+        <ul >
+            <a class = "footer_nav_item" href="">Контакты<br></a>
+            <a class = "footer_nav_item" href="about.html">О нас</a>
+        </ul>
+        <ul >
+            <a class = "footer_nav_item" href="">Политика кофиденциальности<br></a>
+            <a class = "footer_nav_item" href="">Договор оферты</a>
+        </ul>
+        <div class = "foot_social_network">
+            <a class = "foot_social_network" href=""><img src="images/instagram.svg" alt="img" height="52" width="52"></a>
+            <a class = "foot_social_network" href=""><img src="images/whatsapp.svg" alt="img" height="52" width="52"></a>
+            <p class="footer_nav_item">+7 967 927-22-27</p>
+        </div>
+    </nav>
+</footer>
+<script src="js/functions.js"></script>
 </body>
 </html>
